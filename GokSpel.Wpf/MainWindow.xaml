@@ -1,0 +1,17 @@
+﻿<Window x:Class="GokSpel.Wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GokSpel.Wpf"
+        mc:Ignorable="d"
+        Title="Raad het getal" Height="463.418" Width="294.607">
+    <Grid>
+        <Button x:Name="btnNieuwSpel" Content="Nieuw spel" HorizontalAlignment="Left" Margin="28,8,0,0" VerticalAlignment="Top" Width="120" Height="28" IsDefault="True" />
+        <TextBox x:Name="txtGetal" HorizontalAlignment="Left" Height="23" Margin="28,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" HorizontalContentAlignment="Right"/>
+        <Button x:Name="btnGok" Content="Gok" HorizontalAlignment="Left" Margin="28,147,0,0" VerticalAlignment="Top" Width="120" Height="28"/>
+        <Label x:Name="lblFeedback" Content="Pogingen" HorizontalAlignment="Left" Margin="28,183,0,0" VerticalAlignment="Top" Height="206" Width="247"/>
+        <Label Content="Tik een getal in en klik op gok" HorizontalAlignment="Left" Margin="28,66,0,0" VerticalAlignment="Top" FontSize="14"/>
+
+    </Grid>
+</Window>
